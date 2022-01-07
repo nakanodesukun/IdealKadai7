@@ -6,17 +6,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tab View Controller-->
         <scene sceneID="lcs-LU-LPU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uZ7-gQ-EE6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tabBarController id="EcL-yZ-16Q" sceneMemberID="viewController">
+                <tabBarController id="EcL-yZ-16Q" customClass="TabViewController" customModule="IdealKadai7" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2bI-dQ-Lp6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZ7-gQ-EE6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-446" y="292"/>
         </scene>
